@@ -9,7 +9,7 @@ Creates cachable bundle files for javascript and CSS, using md5 suffixes.
 
 Set up your bundles:
 
-````
+```` javascript
 var bundleSettings = {
   compress : true, // true to compress and minify. If false, each raw file will be included as its own bundle
   bundles: [
@@ -21,13 +21,13 @@ var bundleSettings = {
 
 ````
 Call the bundler:
-````
+```` javascript
 // bundling these settings will set up a global bundle object
 require('./expressSimpleBundler').bundle(bundleSettings);
 ````
 
 Use the bundles in a view:
-````
+```` html
 @bundles.css.forEach(function(b){
   <link rel="stylesheet" type="text/css" src="@b" />
 })
@@ -38,7 +38,7 @@ Use the bundles in a view:
 ````
 
 Output:
-````
+```` html
 <link rel="stylesheet" type="text/css" src="public/css/dist/main.d41d8cd98f00b204e9800998ecf8427e.css" />
 <script type="text/javascript" src="public/js/dist/main.af628313630eff47f96c5ddcba59a2c3.js"></script>
 ````
