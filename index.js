@@ -24,11 +24,9 @@ exports.bundle = function(bundleSettings)
 
 function addRawFiles(bundlePackage,outputArray)
 {
-    bundlePackage.forEach(function(b){
       b.files.forEach(function(f){
         outputAray.push(f.replace('public',''));
       });
-    });
 }
 
 // types:
