@@ -24,7 +24,6 @@ exports.bundle = function(bundleSettings)
 
 function addRawFiles(bundlePackage,outputArray)
 {
-    console.log("adding raw files to bundle output");
     bundlePackage.forEach(function(b){
       b.files.forEach(function(f){
         outputAray.push(f.replace('public',''));
@@ -50,7 +49,6 @@ function createBundle(bundlePackage,outputArray,type)
 
 function renameBundle(output)
 {
-  console.log("renaming " + output);
   var md5File = require('md5-file');
 
   var md5 = md5File(output);
