@@ -1,4 +1,4 @@
-# express-simple-bundles
+# express-simple-bundler
 Creates cachable bundle files for javascript and CSS, using md5 suffixes.
 
 ## Installation
@@ -23,7 +23,7 @@ var bundleSettings = {
 Call the bundler:
 ```` javascript
 // bundling these settings will set up a global bundle object
-require('./express-simple-bundler').bundle(bundleSettings);
+require('express-simple-bundler').bundle(bundleSettings);
 ````
 
 Use the bundles in a view:
