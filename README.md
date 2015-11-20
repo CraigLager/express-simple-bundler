@@ -23,7 +23,7 @@ var bundleSettings = {
 Call the bundler:
 ```` javascript
 // bundling these settings will set up a global bundle object
-require('./expressSimpleBundler').bundle(bundleSettings);
+require('./express-simple-bundles').bundle(bundleSettings);
 ````
 
 Use the bundles in a view:
