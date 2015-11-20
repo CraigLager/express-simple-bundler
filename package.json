@@ -1,6 +1,6 @@
 {
   "name": "express-simple-bundles",
-  "version": "0.1.0",
+  "version": "1.0.4",
   "description": "A very simple bundler, designed for usage in express",
   "main": "index.js",
   "scripts": {
