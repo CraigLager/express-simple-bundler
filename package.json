@@ -1,6 +1,6 @@
 {
-  "name": "express-simple-bundles",
-  "version": "1.0.4",
+  "name": "express-simple-bundler",
+  "version": "0.1.0",
   "description": "A very simple bundler, designed for usage in express",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,17 @@
   "dependencies": {
     "md5-file": "^2.0.3",
     "node-minify": "^1.3.6"
-  }
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/CraigLager/express-simple-bundler.git"
+},
+  "keywords":[
+    "bundle",
+    "bundler",
+    "bundling",
+    "javascript",
+    "css",
+    "express"
+  ]
 }
