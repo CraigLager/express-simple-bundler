@@ -40,7 +40,7 @@ function createBundle(bundlePackage,outputArray,type)
     fileOut: bundlePackage.output + bundlePackage.name,
       callback: function(err, min){
         var newFile = renameBundle(bundlePackage.output + bundlePackage.name);
-        outputArray.push(newFile);
+        outputArray.push(newFile.replace('public',''));
       }
   });
 }
